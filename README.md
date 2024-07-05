@@ -39,9 +39,9 @@ This project is a fundamental building block for understanding digital design an
 ### Usage
 
 Once synthesized and programmed onto an FPGA, the ALU can be tested by providing 5-bit inputs `A` and `B`, and selecting the operation via the `Op` input:
-- `00` for addition
-- `01` for subtraction
-- `10` for multiplication
+- `001` for addition
+- `010` for subtraction
+- `011` for multiplication
 
 The result is provided as a 10-bit output `Result`.
 
